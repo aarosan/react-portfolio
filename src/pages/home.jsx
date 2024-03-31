@@ -29,7 +29,9 @@ const Home = () => {
 
                     <Intro />
 
-
+                    <AllProjects />
+                    
+                    <Footer />
             </div>
 
         </React.Fragment>
