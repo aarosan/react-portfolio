@@ -1,0 +1,69 @@
+.project {
+    border-radius: 5px;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid #7159A7;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.project:hover {
+    background: rgba(119, 85, 172, 0.75);
+    opacity: 1;
+    transition: background-color .3s ease-in-out;
+}
+
+.project-container {
+    padding: 30px 10px 30px 10px;
+    color: #F7F6FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title {
+    font-size: 26px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.project-description {
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.project-languages {
+    padding-top: 15px;
+    margin-bottom: 1em;
+}
+
+.project-github {
+    padding-top: 15px;
+    margin-bottom: 1em;
+}
+
+.project-github a {
+    color: #F7F6FC;
+}
+
+.project-github a:hover {
+    color: black;
+}
+
+.project-deployed {
+    padding-top: 15px;
+    margin-bottom: 1em;
+}
+
+.project-deployed a {
+    color: #F7F6FC;
+}
+
+.project-deployed a:hover {
+    color: black;
+}
