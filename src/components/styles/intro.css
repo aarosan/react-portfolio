@@ -1,45 +1,49 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
-}
+} */
 
 .intro-container {
     display: flex;
-    flex-direction: column;
-    position: absolute;
+    /* position: relative; */
     justify-content: center;
     align-items: center;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2;
+    margin: auto;
+    background-color: #BDD9FF;
 }
 
 
 .intro-left {
+    flex-basis: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .intro-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-
+    flex-basis: 55%;
+    padding: 100px;
 }
 
 .about-me {
     padding: 30px;
-    width: 40%;
     background-color: #9AC3FA;
     border: 1px solid #1C378C;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-shadow: 0 0 10px rgba(23, 36, 82, 0.5);
+}
+
+.name {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #172452;
 }

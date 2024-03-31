@@ -8,12 +8,18 @@ import "./styles/intro.css";
 const Intro = () => {
     return (
         <React.Fragment>
+        <div className="intro">
 
             <div className="intro-container">
 
                     <div className="intro-left">
 
                         <Headshot />
+
+
+                        <div className="name">
+                            Aaron Sanchez
+                        </div>
 
                     </div>
 
@@ -32,7 +38,9 @@ const Intro = () => {
                     </div>
                 
             </div>
-            
+        
+        </div>
+  
         </React.Fragment>        
     );
 }

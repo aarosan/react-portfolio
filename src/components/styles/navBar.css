@@ -1,17 +1,17 @@
 .nav-container {
     margin: 0;
+    padding-bottom: 100px;;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 999;
+    background-color: #BDD9FF;
 }
 
 .navbar {
     display: flex;
-    justify-content: flex;
-    align-items: flex;
-    position: fixed;
+    position: absolute;
     top: 3vh;
     z-index: 999;
 }
