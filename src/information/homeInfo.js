@@ -23,6 +23,7 @@ const INFO = {
             languages: "React | Node.js | IndexDB",
             githubLink: "",
             deployedLink: "",
+            projectLink: "",
         },
         {
             title: "Run Tracker",
@@ -30,6 +31,7 @@ const INFO = {
             languages: "React | Node.js | Express.js |MySQL | OAuth",
             githubLink: "",
             deployedLink: "",
+            projectLink: "",
         },
         {
             title: "Comic Book Search Engine",
@@ -37,6 +39,7 @@ const INFO = {
             languages: "MongoDB | Express.js | React | Node.js",
             githubLink: "",
             deployedLink: "",
+            projectLink: "",
         }
     ],
 
@@ -49,3 +52,5 @@ const INFO = {
 
 
 }
+
+export default INFO;

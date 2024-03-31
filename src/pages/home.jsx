@@ -25,13 +25,23 @@ const Home = () => {
 
             <div className="page-content">
 
+                <div className="home-navbar">
                     <NavBar active="home" />
+                </div>
 
+                <div className="home-intro">
                     <Intro />
+                </div>
 
+                <div className="home-projects">
                     <AllProjects />
+                </div>
                     
+
+                <div className="footer-projects">
                     <Footer />
+                </div>
+                
             </div>
 
         </React.Fragment>
