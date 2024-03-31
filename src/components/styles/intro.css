@@ -5,6 +5,7 @@ body {
 
 .intro-container {
     display: flex;
+    flex-direction: column;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -21,26 +22,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.name {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
 }
 
 .intro-right {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+
 }
 
 .about-me {
     padding: 30px;
     width: 40%;
     background-color: #9AC3FA;
-    border: 3px solid #1C378C;
+    border: 1px solid #1C378C;
     display: flex;
     justify-content: center;
     align-items: center;

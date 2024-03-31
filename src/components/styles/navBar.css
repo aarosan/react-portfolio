@@ -23,7 +23,7 @@
     padding-right: 0%;
     background: #DDE9FD;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    border: 3px solid #1C378C;
+    border: 1px solid #1C378C;
     border-radius: 40px;
 }
 
@@ -52,6 +52,6 @@
 }
 
 .nav-item a:hover {
-    color: red;
-    transition: color 0.3s ease-in-out;
+    color: #387df9;
+    transition: color 0.1s ease-in-out;
 }

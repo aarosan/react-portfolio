@@ -6,7 +6,6 @@ import "./styles/home.css";
 import INFO from "../information/homeInfo";
 
 import NavBar from "../components/navBar";
-import Header from "../components/header";
 import Intro from "../components/intro";
 import Footer from "../components/footer";
 import AllProjects from "../components/allProjects";
@@ -21,12 +20,10 @@ const Home = () => {
             </Helmet>
 
             <div className="page-content">
-                <div className="content-container">
-                    <Header />
+
+                    <NavBar active="home" />
+
                     <Intro />
-                </div>
-                
-                <NavBar active="home" />
 
 
             </div>
