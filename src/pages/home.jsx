@@ -21,9 +21,12 @@ const Home = () => {
             </Helmet>
 
             <div className="page-content">
-                <Header />
+                <div className="content-container">
+                    <Header />
+                    <Intro />
+                </div>
+                
                 <NavBar active="home" />
-                <Intro />
 
 
             </div>
