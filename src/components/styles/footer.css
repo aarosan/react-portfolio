@@ -25,6 +25,7 @@
     font-style: normal;
     font-size: 30px;
     color: #172452;
+    text-align: center;
 }
 
 .contact-information {
@@ -35,19 +36,13 @@
     padding: 0 20px 0 20px;
 }
 
+
 @media screen and (max-width: 768px) {
     .footer-information {
         flex-direction: column;
         gap: 10px;
     }
 }
-
-/* @media screen and (min-width: 640px) {
-    .footer-information {
-        flex-direction: column;
-        gap: 10px;
-    }
-} */
 
 @media screen and (max-width: 639px) {
     .footer-information {

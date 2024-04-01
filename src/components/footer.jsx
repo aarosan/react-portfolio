@@ -19,13 +19,12 @@ const Footer = () => {
                     </div>
 
                     <div className="contact-information">
-                        <a href="https://github.com/aarosan" target="_blank" rel="noopener noreferrer" style={{ fontSize: "50px", color: "black" }}>
-                            <FontAwesomeIcon icon={faGithub} />
-                        </a>
-                        <a href="https://linkedin.com/in/aaron-ross-sanchez" target="_blank" rel="noopener noreferrer" style={{ fontSize: "50px", color: "black" }}>
-                            <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
-                        aaron.ross.sanchez@gmail.com
+                            <a href="https://github.com/aarosan" target="_blank" rel="noopener noreferrer" style={{ fontSize: "50px", color: "black" }}>
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <a href="https://linkedin.com/in/aaron-ross-sanchez" target="_blank" rel="noopener noreferrer" style={{ fontSize: "50px", color: "black" }}>
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
                     </div>
 
                 </div>
