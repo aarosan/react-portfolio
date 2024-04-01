@@ -40,11 +40,13 @@
 .project-languages {
     padding-top: 15px;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .project-github {
     padding-top: 15px;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .project-github a {
@@ -58,6 +60,7 @@
 .project-deployed {
     padding-top: 15px;
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .project-deployed a {
