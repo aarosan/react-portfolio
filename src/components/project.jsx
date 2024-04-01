@@ -13,7 +13,7 @@ const Project = (props) => {
                         <div className="project-description">{description}</div>
                         <div className="project-languages">{languages}</div>
                         <div className="project-github">
-                            <a href={githubLink}>Github Link</a>
+                            <a href={githubLink}>Github Repository</a>
                         </div>
                         <div className="project-deployed">                            <Link to="/projects">Deployed Application</Link>
                         </div>
