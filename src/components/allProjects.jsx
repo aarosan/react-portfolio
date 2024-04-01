@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Project from "./project";
 
 import INFO from "../information/homeInfo";
@@ -18,7 +19,7 @@ const AllProjects = () => {
                         </div>
 
                         <div className="projects-view-more">
-                            <a href="/">View more</a>
+                            <Link to="/projects">View more</Link>
                         </div>
 
                     </div>
@@ -32,7 +33,6 @@ const AllProjects = () => {
                                     languages={project.languages}
                                     githubLink={project.githubLink}
                                     deployedLink={project.deployedLink}
-                                    projectLink={project.projectLink}
                                 />
                             </div>
                         ))}

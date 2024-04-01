@@ -3,8 +3,6 @@ import { Helmet } from "react-helmet";
 
 import "./styles/home.css";
 
-import INFO from "../information/homeInfo";
-
 import NavBar from "../components/navBar";
 import Intro from "../components/intro";
 import Footer from "../components/footer";
@@ -37,8 +35,7 @@ const Home = () => {
                     <AllProjects />
                 </div>
                     
-
-                <div className="footer-projects">
+                <div className="home-footer">
                     <Footer />
                 </div>
                 
