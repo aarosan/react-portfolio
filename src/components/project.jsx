@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./styles/project.css";
 
 const Project = (props) => {
-    const { title, description, languages, githubLink, deployedLink } = props;
+    const { title, description, languages, githubLink } = props;
 
     return (
         <React.Fragment>

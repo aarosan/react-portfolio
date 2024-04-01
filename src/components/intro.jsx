@@ -1,8 +1,6 @@
 import React from "react";
 import Headshot from "./headshot";
 
-import INFO from "../information/homeInfo";
-
 import "./styles/intro.css";
 
 const Intro = () => {
