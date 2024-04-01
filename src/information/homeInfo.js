@@ -28,7 +28,7 @@ const INFO = {
         {
             title: "Run Tracker",
             description: "A React application, where users log in to their unique account, save their data, and track their runs.",
-            languages: "React | Node.js | Express.js |MySQL | OAuth",
+            languages: "React | Node.js | Express.js | MySQL | OAuth",
             githubLink: "https://github.com/aarosan/run-tracker.git",
             deployedLink: "",
             projectLink: "",
