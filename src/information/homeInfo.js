@@ -20,7 +20,7 @@ const INFO = {
         {
             title: "Above Par",
             description: "A PWA that allows users to save mini-golf courses, input up to 2 players scores, and save the game. ",
-            languages: "React | Node.js | IndexDB",
+            languages: "React | Node.js | IndexedDB",
             githubLink: "https://github.com/aarosan/above-par.git",
             deployedLink: "",
             projectLink: "",
