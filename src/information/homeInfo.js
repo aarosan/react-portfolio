@@ -19,7 +19,7 @@ const INFO = {
     projects: [
         {
             title: "Above Par",
-            description: "A PWA that allows users to save mini-golf courses, input up to 2 players scores, and save the game. ",
+            description: "A mobile-friendly PWA that allows users to save mini-golf courses, input up to 2 players scores, and save the game. ",
             languages: "React | Node.js | IndexedDB",
             githubLink: "https://github.com/aarosan/above-par.git",
             deployedLink: "",
