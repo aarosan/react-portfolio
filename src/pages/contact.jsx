@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import "./styles/contact.css";
 
 import NavBar from "../components/navBar";
-import ComingSoon from "../components/comingSoon";
+import ContactMe from "../components/contactMe";
 import Footer from "../components/footer";
 
 const Contact = () => {
@@ -22,8 +22,8 @@ const Contact = () => {
                     <NavBar active="contact" />
                 </div>
 
-                <div className="coming-soon">
-                    <ComingSoon />
+                <div className="contact-me">
+                    <ContactMe />
                 </div>
 
                 <div className="contact-footer">

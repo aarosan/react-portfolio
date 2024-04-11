@@ -1,0 +1,32 @@
+.button:hover {
+    transition: all 0.3s ease 0s;
+    background: rgba(119, 85, 172, 0.75);
+    opacity: 1;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button {
+    background-color: transparent;
+    border: 1px solid #7159A7;
+    color: #fff;
+    min-width: 180px;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .none {
+    display: none;
+  }
+  
+  .icon {
+    margin-right: 0.5rem;
+  }
+  

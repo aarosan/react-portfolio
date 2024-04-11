@@ -14,11 +14,6 @@ const Intro = () => {
 
                         <Headshot />
 
-
-                        <div className="name">
-                            Aaron Sanchez
-                        </div>
-
                     </div>
 
                     <div className="intro-right">
@@ -28,9 +23,6 @@ const Intro = () => {
                         Hello, my name is Aaron!
                         <br/><br/>
                         I'm a Full-Stack Developer based in Austin, TX.
-                        <br/><br/>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat odio id urna ullamcorper luctus. Mauris et lacus eget arcu cursus vestibulum sed nec tortor. Nulla tortor velit, molestie et vulputate quis, imperdiet id elit. Proin at commodo est. In nec tortor aliquet, finibus mi et, eleifend nisl.  
-
                         </div>        
 
                     </div>

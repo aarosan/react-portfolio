@@ -30,6 +30,7 @@ const AllProjects = () => {
                                 <Project 
                                     title={project.title}
                                     description={project.description}
+                                    participation={project.participation}
                                     languages={project.languages}
                                     githubLink={project.githubLink}
                                     deployedLink={project.deployedLink}
