@@ -53,13 +53,27 @@
     }
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
     .intro-container {
         flex-direction: column;
     }
 
     .intro-left {
         margin-bottom: -20px;
+    }
+
+    .intro-right {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .about-me {
+        font-size: 30px;
+    }
+
+    .intro-left {
+        margin: 0px;
     }
 
     .intro-right {

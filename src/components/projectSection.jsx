@@ -38,7 +38,7 @@ const ProjectSection = () => {
 
                 <div className="in-development-container">
                         {INFO.inDevelopmentProjects.map((project, index) => (
-                            <div className="all-projects-project" key={index}>
+                            <div className="all-development-project" key={index}>
                                 <InDevelopment 
                                     title={project.title}
                                     description={project.description}

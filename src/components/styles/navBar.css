@@ -55,3 +55,9 @@
     color: #387df9;
     transition: color 0.1s ease-in-out;
 }
+
+@media screen and (max-width: 380px) {
+    .nav-background {
+        width: 360px;
+    }
+}
