@@ -69,7 +69,7 @@
     }
 } */
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 640px) {
     .all-projects-container {
         flex-direction: column;
         margin-left: 10px;

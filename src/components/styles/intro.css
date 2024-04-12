@@ -53,20 +53,6 @@
     }
 }
 
-/* @media screen and (min-width: 640px) {
-    .intro-container {
-        flex-direction: column;
-    }
-
-    .intro-left {
-        margin-bottom: -20px;
-    }
-
-    .intro-right {
-        padding: 50px;
-    }
-} */
-
 @media screen and (max-width: 639px) {
     .intro-container {
         flex-direction: column;

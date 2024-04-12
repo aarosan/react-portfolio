@@ -68,3 +68,37 @@
     flex: 1; 
     box-sizing: border-box; 
 }
+
+
+@media screen and (max-width: 768px) {
+    .about-me-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .left {
+        margin-bottom: -20px;
+    }
+
+    .right {
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .intro-container {
+        flex-direction: column;
+    }
+
+    .intro-left {
+        margin-bottom: -20px;
+    }
+
+    .intro-right {
+        padding: 50px;
+    }
+}

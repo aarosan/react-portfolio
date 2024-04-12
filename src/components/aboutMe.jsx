@@ -23,7 +23,7 @@ const AboutMe = () => {
                         {INFO.about.bio}
                     </div>
                     <div className="language-title">
-                        Software Languages/Frameworks:
+                        Languages/Frameworks:
                     </div>
                     <div className="language-container">
                         {INFO.about.languages}
