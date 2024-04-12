@@ -51,6 +51,12 @@ const INFO = {
         githubProfle: "",
         linkedInProfile: "",
         email: "aaron.ross.sanchez@gmail.com"
+    },
+
+    about: {
+        bio: "Hello! My name is Aaron and I'm Full Stack Developer based in Austin, TX. With a focus on web accessibility, APIs, and backend services, I enjoy creating full-stack applications to address day-to-day problems. Outside of coding, I love to paint, garden, hike the greenbelt, and end the day with a good video game.",
+        languages: "HTML | CSS | Bootstrap | Tailwind | JavaScript | Node.js | Express.js | MySQL | MongoDB | React | Apollo GraphQL | Python",
+        certifications: "AWS Cloud Practitioner | Microsoft Azure Fundamentals"
     }
 
 

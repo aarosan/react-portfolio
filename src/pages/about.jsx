@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import "./styles/about.css";
 
 import NavBar from "../components/navBar";
-import ComingSoon from "../components/comingSoon";
+import AboutMe from "../components/aboutMe";
 
 import Footer from "../components/footer";
 
@@ -23,8 +23,8 @@ const About = () => {
                     <NavBar active="about" />
                 </div>
 
-                <div className="coming-soon">
-                    <ComingSoon />
+                <div className="about-me">
+                    <AboutMe />
                 </div>
 
                 <div className="about-footer">
