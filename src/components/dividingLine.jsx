@@ -5,11 +5,11 @@ const DividingLine = () => {
 
 
     const lineStyle = {
-        width: '75%', // Line width is 75% of the container
-        height: '2px', // Thickness of the line
-        backgroundColor: 'white', // Line color (you can change it)
-        border: 'none', // Remove any default border styling
-        margin: '0 auto' // Center the line within the container
+        width: '100%',
+        height: '3px', 
+        backgroundColor: '#c99cfb', 
+        border: 'none',
+        margin: '0 auto' 
     };
 
 
@@ -17,7 +17,6 @@ const DividingLine = () => {
         <React.Fragment>
 
             <div className="container">
-            {/* Create an hr element with the defined style */}
                 <hr style={lineStyle} />
             </div>
 

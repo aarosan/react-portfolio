@@ -14,9 +14,9 @@ const Footer = () => {
 
                 <div className="footer-information">
 
-                    <div className="contact-title">
+                    {/* <div className="contact-title">
                         Contact Me!
-                    </div>
+                    </div> */}
 
                     <div className="contact-information">
                             <a href="https://github.com/aarosan" target="_blank" rel="noopener noreferrer" style={{ fontSize: "50px", color: "black" }}>

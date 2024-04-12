@@ -54,7 +54,8 @@ const ContactMe = () => {
         fontStyle: 'normal',
         fontSize: '40px',
         color: '#F7F6FC',
-        paddingTop: '25px',
+        paddingTop: '10px',
+        paddingBottom: '15px'
     };
 
     return (
@@ -85,6 +86,7 @@ const ContactMe = () => {
                         text={loading ? "Sending..." : "Send"}
                         loading={loading}
                         type="submit"
+                        className="contact-button"
                     />
                     {notification && (
                     <span style={thankYouStyle}>

@@ -55,18 +55,16 @@
     color: #F7F6FC;
     text-decoration: none;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 40px;
     width: 70%;
 }
 
 .left {
     flex: 2; 
-    /* padding: 20px;  */
     box-sizing: border-box; 
 }
 
 .right {
     flex: 1; 
-    /* padding: 20px;  */
     box-sizing: border-box; 
 }
