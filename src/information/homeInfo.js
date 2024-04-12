@@ -39,11 +39,20 @@ const INFO = {
             title: "Personal Portfolio",
             description: "A React application to show personal coding projects.",
             participation: "I independently executed this project.",
-            languages: "React | Node.js",
+            languages: "React | Node.js | EmailJS",
             githubLink: "https://github.com/aarosan/react-portfolio.git",
             deployedLink: "https://aarosan.com",
             projectLink: "",
         }
+    ],
+    inDevelopmentProjects: [
+        {
+            title: "Above Par",
+            description: "A PWA that allows users to save mini-golf courses, input up to 2 players scores, and save the game.",
+            participation: "I independently executed this project.",
+            languages: "MongoDB | Express.js | React | Node.js | GraphQL",       
+            githubLink: "https://github.com/aarosan/above-par.git",
+        },
     ],
 
     contact: {

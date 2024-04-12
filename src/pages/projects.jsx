@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import "./styles/projects.css";
 
 import NavBar from "../components/navBar";
-import ComingSoon from "../components/comingSoon";
+import ProjectSection from "../components/projectSection";
 import Footer from "../components/footer";
 
 const Projects = () => {
@@ -22,8 +22,8 @@ const Projects = () => {
                     <NavBar active="projects" />
                 </div>
 
-                <div className="coming-soon">
-                    <ComingSoon />
+                <div className="project-section">
+                    <ProjectSection />
                 </div>
 
                 <div className="projects-footer">
